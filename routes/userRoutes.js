@@ -8,7 +8,7 @@ const {
 } = require("../controllers/userController");
 const auth = require("../middleware/auth");
 const multer = require("multer");
-const path = require("path")
+const path = require("path");
 // const upload = require("../middleware/uploadFile");
 
 const storage = multer.diskStorage({
